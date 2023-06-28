@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilosCocina.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belgrano&display=swap" rel="stylesheet">
+    <title>Cocina</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div><a href="">Pedidos</a></div>
+        </nav>
+        <div class="logo">
+            <img src="fotos/logoRedondo.png" alt="">
+        </div>
+    </header>
+    <div class="contenedor-tabla">
+        <table class="tabla">
+            <thead>
+                <tr>
+                    <th>N°</th>
+                    <th>Pedido</th>
+                    <th>Cantidad</th>
+                    <th>Fecha y hora</th>
+                    <th>Tiempo estimado</th>
+                    <th>Comentarios</th>
+                    <th>Estado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="fila">
+                    <td>1</td>
+                    <td>Hamburguesa grande con papas
+                        <br>
+                        <button class="btn_detalles_modificacion">Detalles</button>
+                    </td>
+                    <td>2</td>
+                    <td>20/05-21:05</td>
+                    <td><input type="number" class="tiempo_estimado" name="" id="" autocomplete="off" value="30" readonly>
+                        min.
+                        <br>
+                        <button class="btn_detalles_modificacion">Modificar</button>
+                    </td>
+                    <td>Una hamburguesa completa y la otra solo con mayonesa</td>
+                    <td>
+                        <button class="listo">Listo</button>
+                    </td>
+                </tr>
+                <tr class="fila">
+                    <td>2</td>
+                    <td>Pizza napolitana
+                        <br>
+                        <button class="btn_detalles_modificacion">Detalles</button>
+                    </td>
+                    <td>1</td>
+                    <td>20/05-21:17</td>
+                    <td><input type="number" class="tiempo_estimado" name="" id="" autocomplete="off" value="40" readonly>
+                        min.
+                        <br>
+                        <button class="btn_detalles_modificacion">Modificar</button>
+                    </td>
+                    <td>-</td>
+                    <td>
+                        <button class="listo">Listo</button>
+                    </td>
+                </tr>
+                <tr class="fila">
+                    <td>3</td>
+                    <td>Pancho grande
+                        <br>
+                        <button class="btn_detalles_modificacion">Detalles</button>
+                    </td>
+                    <td>4</td>
+                    <td>20/05-21:23</td>
+                    <td><input type="number" class="tiempo_estimado" name="" id="" autocomplete="off" value="20">
+                        min.
+                        <br>
+                        <button class="btn_detalles_modificacion">Modificar</button>
+                    </td>
+                    <td>Todos los panchos completos</td>
+                    <td>
+                        <button class="listo">Listo</button>
+                    </td>
+                </tr>
+                <tr class="fila_desplegable">
+                    <td colspan="4">
+                        <ul><span>Ingredientes:</span> 
+                            <li>Salchichas</li>
+                            <li>Pan de panchos</li>
+                            <li>Aderezos</li>
+                        </ul>
+                    </td>
+                    <td colspan="3">
+                        <ol><span>Instrucciones:</span> 
+                            <li>Hervir para cocinar las salchichas</li>
+                            <li>Calentar pan en el horno</li>
+                            <li>Armar los panchos y agregar aderezos</li>
+                        </ol>
+                    </td>
+                </tr>
+                <tr class="fila">
+                    <td>4</td>
+                    <td>Lomo XXL
+                        <br>
+                        <button class="btn_detalles_modificacion">Detalles</button>
+                    </td>
+                    <td>2</td>
+                    <td>20/05-21:30</td>
+                    <td><input type="number" class="tiempo_estimado" name="" id="" autocomplete="off" value="35" readonly>
+                        min.
+                        <br>
+                        <button class="btn_detalles_modificacion">Modificar</button>
+                    </td>
+                    <td>-</td>
+                    <td>
+                        <button class="listo">Listo</button>
+                    </td>
+                </tr>
+                <tr class="fila">
+                    <td>5</td>
+                    <td>Papas fritas grandes
+                        <br>
+                        <button class="btn_detalles_modificacion">Detalles</button>
+                    </td>
+                    <td>1</td>
+                    <td>20/05-21:33</td>
+                    <td><input type="number" class="tiempo_estimado" name="" id="" autocomplete="off" value="20" readonly>
+                        min.
+                        <br>
+                        <button class="btn_detalles_modificacion">Modificar</button>
+                    </td>
+                    <td>Con huevo y panceta</td>
+                    <td>
+                        <button class="listo">Listo</button>
+                    </td>
+                </tr>
+                <tr class="fila">
+                    <td>6</td>
+                    <td>Empanadas salteñas
+                        <br>
+                        <button class="btn_detalles_modificacion">Detalles</button>
+                    </td>
+                    <td>12</td>
+                    <td>20/05-21:40</td>
+                    <td><input type="number" class="tiempo_estimado" name="" id="" autocomplete="off" value="30" readonly>
+                        min.
+                        <br>
+                        <button class="btn_detalles_modificacion">Modificar</button>
+                    </td>
+                    <td>-</td>
+                    <td>
+                        <button class="listo">Listo</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

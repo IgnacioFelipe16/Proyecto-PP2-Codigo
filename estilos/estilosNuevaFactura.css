@@ -1,0 +1,178 @@
+body{
+    background-image: url(/fotos/fondo.png);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Belgrano', serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*Barra de navegación*/
+header{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+}
+.logo img{
+    height: 60px;
+}
+header nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+header nav div{
+    font-size: 18px;
+    background-color: white;
+    padding: 8px 12px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+.silueta{
+    height: 30px;
+    margin-left: 8px;
+}
+
+.contenedor-mayor{
+    margin: 30px auto;
+    background-color: white;
+    max-width: 97%;
+    height: 510px;
+    box-shadow: 2px 2px 2px 0;
+}
+.contenedor-titulo{
+    background-color: #969696;
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.contenedor-campos{
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+.fila1, .fila2, .fila3, .fila4{
+    width: 100%;
+    display: flex;
+}
+.fila1 div, .fila2 div, .fila3 div, .fila4 div{
+    float: left;
+    padding: 3px;
+    width: 100%;
+}
+.campo{
+    font-family: 'Belgrano', serif;
+    font-size: 18px;
+    background-color: #c3c3c3;
+    border: 0;
+    padding: 3px 6px;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/*tabla*/
+.contenedor-tabla{
+    width: 100%;
+    margin: 20px auto;
+}
+table{
+    width: 97%;
+    margin: 0 auto;
+    border: 1px solid black;
+    font-size: 18px;
+    background-color: white;
+    border-collapse: collapse;
+}
+th, .fila{
+    text-align: center;
+}
+th{
+    background-color:#969696;
+}
+th, td{
+    border: 1px solid black;
+    padding: 4px 7px;
+}
+
+/*Tabla inferior*/
+.contenedor-datos-botones{
+    display: flex;
+}
+.contenedor-total{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 60%;
+}
+.datos-finales{
+    width:fit-content;
+}
+.datos-finales input{
+    font-family: 'Belgrano', serif;
+    font-size: 18px;
+    background-color: #c3c3c3;
+    padding: 3px 6px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.datos-finales label{
+    font-size: 18px;
+}
+.contenedor-botones{
+    float: left;
+    display: flex;
+    width: 40%;
+    justify-content:flex-end;
+    align-items:flex-end;
+}
+.contenedor-botones button{
+    margin-right: 20px;
+    font-family: 'Belgrano', serif;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 50px;
+    border: 0px;
+    padding: 5px 8px;
+    box-shadow: 2px 2px 2px 0;
+}
+.boton-cancelar{
+    background-color: rgb(255, 39, 39);
+}
+.boton-guardar{
+    background-color: #ffcb24;
+}
+.boton-añadir-prod{
+    font-size: 16px;
+    font-family: 'Belgrano', serif;
+    box-shadow: 2px 2px 2px 0;
+}
+
+/*Opciones inferiores de tabla*/
+.opcionesFilas{
+    display: flex;
+    padding: 0 20px;
+    align-items: flex-start;
+}
+.opcion{
+    border: 1px solid  rgb(132, 132, 132);
+    width: fit-content;
+    margin-left: 10px;
+}
+.opcion img{
+    height: 35px;
+}

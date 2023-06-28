@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos/estilosNuevaFactura.css">
+    <link rel="stylesheet" href="/estilos/estilosFooter.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belgrano&display=swap" rel="stylesheet">
+    <title>Editar factura</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="admin"><a href="">Administrador</a></div>
+            <div class="cuenta"><a href="">Mi cuenta</a><img src="/fotos/silueta.png" class="silueta"></div>
+        </nav>
+        <div class="logo">
+            <img src="fotos/logoRedondo.png" alt="">
+        </div>
+    </header>
+
+    <div class="contenedor-mayor">
+        <div class="contenedor-titulo">
+            Editar factura
+        </div>
+        <div class="contenedor-campos">
+            <div class="fila1">
+                <div>
+                    <input type="text" class="campo" name="" id="" placeholder="Cliente">
+                </div>
+            </div>
+            <div class="fila2">
+                <div>
+                    <input type="text" class="campo" name="" id="" placeholder="Tipo de factura">
+                </div>
+                <div>
+                    <input type="text" class="campo" name="" id="" placeholder="N° de pedido">
+                </div>
+                <div>
+                    <input type="text" class="campo" name="" id="" placeholder="Fecha">
+                </div>
+            </div>
+            <div class="fila3">
+                <div>
+                    <input type="text" class="campo" name="" id="" placeholder="CUIT/CUIL">
+                </div>
+                <div>
+                    <input type="text" class="campo" name="" id="" placeholder="Teléfono">
+                </div>
+                <div>
+                    <input type="text" class="campo" name="" id="" placeholder="Dirección">
+                </div>
+            </div>
+            <div class="fila4">
+                <div>
+                    <input type="text" class="campo" name="" id="" placeholder="Vendedor">
+                </div>
+                <div>
+                    <input type="text" class="campo" name="" id="" placeholder="Forma de pago">
+                </div>
+            </div>
+        </div>
+        <div class="contenedor-tabla">
+            <table class="tabla">
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Descripción</th>
+                        <th>Cantidad</th>
+                        <th>Precio</th>
+                        <th>Descuento</th>
+                        <th>Importe</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="fila">
+                        <td>1</td>
+                        <td>Pizza napolitana grande</td>
+                        <td>2</td>
+                        <td>2000</td>
+                        <td>0.00</td>
+                        <td>4000</td>
+                    </tr>
+                    <tr class="fila">
+                        <td>2</td>
+                        <td>Porción chica de papas fritas</td>
+                        <td>1</td>
+                        <td>900</td>
+                        <td>0.00</td>
+                        <td>900</td>
+                    </tr>
+                    <tr class="fila">
+                        <td>3</td>
+                        <td>Lomo XXL</td>
+                        <td>3</td>
+                        <td>1500</td>
+                        <td>150.00</td>
+                        <td>4350</td>
+                    </tr>
+                    <tr class="fila" id="filaAñadir">
+                        <td colspan="6"><button class="boton-añadir-prod">Añadir producto...</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="contenedor-datos-botones">
+            <div class="opcionesFilas">
+                <div class="opcion"><img src="/fotos/eliminarFactura.png"></div>
+            </div>
+            <div class="contenedor-total">
+                <div class="datos-finales">
+                    <label for="">Subtotal: <input type="number" value="9750"></label>
+                </div>
+                <div class="datos-finales">
+                    <label for="">Envío: <input type="number" value="200"></label>
+                </div>
+                <div class="datos-finales">
+                    <label for="">Total: <input type="number" value="9950"></label>
+                </div>
+            </div>
+            <div class="contenedor-botones">
+                <button class="boton-cancelar">Cancelar</button>
+                <button class="boton-guardar">Guardar</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <ul>
+            <li><img src="/fotos/indicador.png"><a href=""> Mendoza, Argentina</a></li>
+            <li><img src="/fotos/telefono.png"><a href=""> +542994731241</a></li>
+            <li><img src="/fotos/email.png"><a href=""> ElBuenSabor@gmail.com</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

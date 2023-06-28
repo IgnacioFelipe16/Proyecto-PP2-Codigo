@@ -1,0 +1,153 @@
+body{
+    background-image: url(/fotos/fondo.png);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Belgrano', serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*Atajos superiores*/
+header{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+}
+.logo img{
+    height: 60px;
+}
+header nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+header nav div{
+    font-size: 18px;
+    background-color: white;
+    padding: 8px 12px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+.silueta{
+    height: 30px;
+    margin-left: 8px;
+}
+
+/*Barra navegacion*/
+.barNav{
+   background-color: #ffffff;
+   border-radius: 50px;
+   width: 95%;
+   margin: 30px auto;
+   font-size: 20px;
+}
+.barNav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+}
+.barNav ul li{
+    display: inline-block;
+}
+
+.barNav ul li a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+.barNav ul li a:hover{
+    border-radius: 50px;
+    background-color: #C3C3C3;
+}
+
+/*Titulo lista ventas*/
+.facturas{
+    background-color: #ffffff;
+    margin: 20px;
+    height: 410px;
+    box-shadow: 2px 2px 2px 0;
+}
+.fechaMontos ul{
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content:space-between;
+    font-size: 20px;
+    background-color: #C3C3C3;
+    padding: 5px 0px;
+}
+.fechaMontos ul li{
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+}
+
+/*Buscador*/
+.buscador{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    box-sizing: border-box;
+}
+.buscador input{
+    border: 0px;
+    background-color: #D9D9D9;
+    height: 30px;
+    width: 300px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+/*Tabla*/
+.contenido_tabla{
+    margin: 20px 10px;
+    background-color: #D9D9D9;
+}
+.tabla{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px;
+    text-align: center;
+}
+th{
+    background-color: #767676;
+}
+th, td{
+    border: 1px solid black;
+    padding: 4px 7px;
+}
+.cliente2{
+    background: #E89535;
+}
+
+/*Opciones inferiores*/
+.opcionesFactura{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 10px;
+}
+.opcion{
+    border: 1px solid  rgb(132, 132, 132);
+    width: fit-content;
+    margin-left: 10px;
+}
+.opcion img{
+    height: 35px;
+}
